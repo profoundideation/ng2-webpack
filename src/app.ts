@@ -3,8 +3,7 @@ import './public/css/styles.css';
 
 @Component({
   selector: 'my-app',
-  templateUrl: './app/app.component.html',
-  styleUrls: ['./app/app.component.css']
+  template: '<h1>My First Angular 2 App</h1>'
 })
 
 export class AppComponent {}
