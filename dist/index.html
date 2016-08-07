@@ -1,1 +1,28 @@
-<!DOCTYPE html> <html> <head> <base href=/ > <title>Angular With Webpack</title> <meta charset=UTF-8> <meta name=viewport content="width=device-width,initial-scale=1"> <link href="/app.84b9223df80e0e5384b6.css" rel="stylesheet"></head> <body> <my-app>Loading &hellip;</my-app> <script type="text/javascript" src="/polyfills.84b9223df80e0e5384b6.js"></script><script type="text/javascript" src="/vendor.84b9223df80e0e5384b6.js"></script><script type="text/javascript" src="/app.84b9223df80e0e5384b6.js"></script></body> </html>
+<!DOCTYPE html>
+<html>
+
+<head>
+    <base href=/>
+    <title>Angular2 With Webpack</title>
+    <meta charset=UTF-8>
+    <meta name=viewport content="width=device-width,initial-scale=1">
+    <script src=node_modules/core-js/client/shim.min.js></script>
+    <script src=node_modules/zone.js/dist/zone.js></script>
+    <script src=node_modules/reflect-metadata/Reflect.js></script>
+    <script src=node_modules/systemjs/dist/system.src.js></script>
+    <script>
+        System["import"]("app")["catch"](function(o) {
+            console.error(o)
+        })
+    </script>
+    <link href="/app.fd0a47c280af91b3fdc5.css" rel="stylesheet">
+</head>
+
+<body>
+    <my-app>Loading &hellip;</my-app>
+    <script type="text/javascript" src="/polyfills.fd0a47c280af91b3fdc5.js"></script>
+    <script type="text/javascript" src="/vendor.fd0a47c280af91b3fdc5.js"></script>
+    <script type="text/javascript" src="/app.fd0a47c280af91b3fdc5.js"></script>
+</body>
+
+</html>
