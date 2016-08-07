@@ -5,8 +5,12 @@
   "scripts": {
     "start": "webpack-dev-server --inline --progress --port 8080",
     "test": "karma start",
+    "lite": "lite-server",
     "build": "rimraf dist && webpack --config config/webpack.prod.js --progress --profile --bail",
-    "postinstall": "typings install"
+    "postinstall": "typings install",
+    "tsc": "tsc",
+    "tsc:w": "tsc -w",
+    "typings": "typings"
   },
   "license": "MIT",
   "dependencies": {
@@ -18,6 +22,7 @@
     "@angular/platform-browser": "2.0.0-rc.4",
     "@angular/platform-browser-dynamic": "2.0.0-rc.4",
     "@angular/router": "3.0.0-beta.1",
+    "systemjs": "0.19.27",
     "core-js": "^2.4.0",
     "reflect-metadata": "0.1.2",
     "rxjs": "5.0.0-beta.6",
@@ -40,6 +45,8 @@
     "phantomjs-prebuilt": "^2.1.7",
     "raw-loader": "^0.5.1",
     "rimraf": "^2.5.2",
+    "concurrently": "^2.0.0",
+    "lite-server": "^2.2.0",
     "style-loader": "^0.13.1",
     "ts-loader": "^0.8.1",
     "typescript": "^1.8.10",
