@@ -1,3 +1,4 @@
+
 # Windows image file caches
 Thumbs.db
 ehthumbs.db
@@ -48,3 +49,4 @@ Temporary Items
 
 /node_modules
 npm-debug.log
+.private
